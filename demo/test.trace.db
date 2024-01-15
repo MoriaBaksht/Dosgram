@@ -1,0 +1,704 @@
+2023-12-07 09:31:18.884813+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-07 09:39:33.893893+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY POST [*]USERS"; SQL statement:
+SELECT * FROM CATEGORY POST USERS [42000-224]
+2023-12-07 09:39:50.709180+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY POST [*]USERS USERS CATEGORY CATEGORY"; SQL statement:
+SELECT * FROM CATEGORY POST USERS USERS CATEGORY CATEGORY [42000-224]
+2023-12-07 09:39:54.404295+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY POST [*]USERS USERS CATEGORY CATEGORY"; SQL statement:
+SELECT * FROM CATEGORY POST USERS USERS CATEGORY CATEGORY [42000-224]
+2023-12-07 09:40:01.077396+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY POST [*]USERS USERS CATEGORY CATEGORY CATEGORY CATEGORY"; SQL statement:
+SELECT * FROM CATEGORY POST USERS USERS CATEGORY CATEGORY CATEGORY CATEGORY [42000-224]
+2023-12-07 09:40:54.422462+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY POST [*]USERS"; SQL statement:
+SELECT * FROM CATEGORY POST USERS [42000-224]
+2023-12-07 10:32:07.866337+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-07 12:03:13.987420+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-07 12:24:19.752177+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-07 12:32:12.374414+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (POST: ""CATEGORY_ID"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."POST"("ID","DATE","DESCRIPTION","IMAGES","CATEGORY_ID","USER_ID")VALUES(?,?,?,?,?,?) [22018-224]
+2023-12-07 12:32:12.374414+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (POST: ""CATEGORY_ID"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."POST"("ID","DATE","DESCRIPTION","IMAGES","CATEGORY_ID","USER_ID")VALUES(?,?,?,?,?,?) [22018-224]
+2023-12-11 00:26:53.169791+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-11 00:27:10.940263+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-11 00:27:24.884966+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-17 12:59:53.157215+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-17 13:20:18.600276+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-17 13:50:39.008638+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-17 13:54:41.659276+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-17 13:57:26.658231+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-17 14:05:24.132097+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-17 14:11:08.574345+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-21 09:29:10.060039+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-21 09:43:06.434286+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-21 14:05:20.978237+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-21 14:39:02.081863+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), post_id bigint, user_id bigint, primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), post_id bigint, user_id bigint, primary key (id)) [42001-224]
+2023-12-21 14:41:35.299972+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, post_id bigint, user_id bigint, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, post_id bigint, user_id bigint, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), primary key (id)) [42001-224]
+2023-12-21 14:41:59.513367+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table comment (id bigint not null, post_id bigint, user_id bigint, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), [*]like varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table comment (id bigint not null, post_id bigint, user_id bigint, cnt_dislike varchar(255), cnt_like varchar(255), content varchar(255), dislike varchar(255), like varchar(255), primary key (id)) [42001-224]
+2023-12-26 11:54:14.208982+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'food' (POST: ""CATEGORY_ID"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."POST"("DATE","CATEGORY_ID","ID","USER_ID","DESCRIPTION","IMAGES")VALUES(?,?,?,?,?,?) [22018-224]
+2023-12-26 11:54:14.225970+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'food' (POST: ""CATEGORY_ID"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."POST"("DATE","CATEGORY_ID","ID","USER_ID","DESCRIPTION","IMAGES")VALUES(?,?,?,?,?,?) [22018-224]
+2023-12-26 14:14:39.114829+02:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: Writing to sun.nio.ch.FileChannelImpl@2cdfce8d failed; length 8192 at 24576 [2.2.224/2]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.FileStore.storeBuffer(FileStore.java:1527)
+	at org.h2.mvstore.FileStore.lambda$serializeAndStore$3(FileStore.java:1432)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: Writing to sun.nio.ch.FileChannelImpl@2cdfce8d failed; length 8192 at 24576 [2.2.224/2]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 12 more
+Caused by: org.h2.mvstore.MVStoreException: Writing to sun.nio.ch.FileChannelImpl@2cdfce8d failed; length 8192 at 24576 [2.2.224/2]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.DataUtils.writeFully(DataUtils.java:478)
+	at org.h2.mvstore.SingleFileStore.writeFully(SingleFileStore.java:67)
+	at org.h2.mvstore.SingleFileStore.writeFully(SingleFileStore.java:28)
+	at org.h2.mvstore.RandomAccessStore.writeChunk(RandomAccessStore.java:366)
+	at org.h2.mvstore.RandomAccessStore.writeChunk(RandomAccessStore.java:28)
+	at org.h2.mvstore.FileStore.storeBuffer(FileStore.java:1524)
+	... 6 more
+Caused by: java.io.IOException: The volume for a file has been externally altered so that the opened file is no longer valid
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:134)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:101)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:71)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1020)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1001)
+	at org.h2.mvstore.DataUtils.writeFully(DataUtils.java:474)
+	... 11 more
+2023-12-26 14:14:43.683827+02:00 database: could not close the database
+org.h2.mvstore.MVStoreException: Writing to sun.nio.ch.FileChannelImpl@2cdfce8d failed; length 8192 at 24576 [2.2.224/2]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.DataUtils.writeFully(DataUtils.java:478)
+	at org.h2.mvstore.SingleFileStore.writeFully(SingleFileStore.java:67)
+	at org.h2.mvstore.SingleFileStore.writeFully(SingleFileStore.java:28)
+	at org.h2.mvstore.RandomAccessStore.writeChunk(RandomAccessStore.java:366)
+	at org.h2.mvstore.RandomAccessStore.writeChunk(RandomAccessStore.java:28)
+	at org.h2.mvstore.FileStore.storeBuffer(FileStore.java:1524)
+	at org.h2.mvstore.FileStore.lambda$serializeAndStore$3(FileStore.java:1432)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.io.IOException: The volume for a file has been externally altered so that the opened file is no longer valid
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:134)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:101)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:71)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1020)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1001)
+	at org.h2.mvstore.DataUtils.writeFully(DataUtils.java:474)
+	... 11 more
+2023-12-26 14:14:43.705820+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: General error: "General error: ""org.h2.mvstore.MVStoreException: Writing to sun.nio.ch.FileChannelImpl@2cdfce8d failed; length 8192 at 24576 [2.2.224/2]"" [50000-224]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.engine.Database.throwLastBackgroundException(Database.java:1817)
+	at org.h2.engine.SessionLocal.close(SessionLocal.java:890)
+	at org.h2.jdbc.JdbcConnection.close(JdbcConnection.java:391)
+	at com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+	at com.zaxxer.hikari.pool.HikariPool.lambda$closeConnection$1(HikariPool.java:444)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: Writing to sun.nio.ch.FileChannelImpl@2cdfce8d failed; length 8192 at 24576 [2.2.224/2]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.FileStore.storeBuffer(FileStore.java:1527)
+	at org.h2.mvstore.FileStore.lambda$serializeAndStore$3(FileStore.java:1432)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	... 3 more
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: Writing to sun.nio.ch.FileChannelImpl@2cdfce8d failed; length 8192 at 24576 [2.2.224/2]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 12 more
+Caused by: org.h2.mvstore.MVStoreException: Writing to sun.nio.ch.FileChannelImpl@2cdfce8d failed; length 8192 at 24576 [2.2.224/2]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.DataUtils.writeFully(DataUtils.java:478)
+	at org.h2.mvstore.SingleFileStore.writeFully(SingleFileStore.java:67)
+	at org.h2.mvstore.SingleFileStore.writeFully(SingleFileStore.java:28)
+	at org.h2.mvstore.RandomAccessStore.writeChunk(RandomAccessStore.java:366)
+	at org.h2.mvstore.RandomAccessStore.writeChunk(RandomAccessStore.java:28)
+	at org.h2.mvstore.FileStore.storeBuffer(FileStore.java:1524)
+	... 6 more
+Caused by: java.io.IOException: The volume for a file has been externally altered so that the opened file is no longer valid
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:74)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:134)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:101)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:71)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1020)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1001)
+	at org.h2.mvstore.DataUtils.writeFully(DataUtils.java:474)
+	... 11 more
+2023-12-28 10:12:37.484463+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant ; SQL statement:
+INSERT INTO "PUBLIC"."POST"("DATE","CATEGORY_ID","ID","USER_ID","DESCRIPTION","IMAGES")VALUES(?,?,?,?,?,?) [22007-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.value.ValueDate.parse(ValueDate.java:53)
+	at org.h2.value.Value.convertToDate(Value.java:1875)
+	at org.h2.value.Value.convertTo(Value.java:1168)
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.h2.result.UpdatableRow.insertRow(UpdatableRow.java:334)
+	at org.h2.jdbc.JdbcResultSet.insertRow(JdbcResultSet.java:3335)
+	at org.h2.server.web.WebApp.editResult(WebApp.java:1165)
+	at org.h2.server.web.WebApp.process(WebApp.java:251)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.lang.String.checkIndex(String.java:4570)
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:46)
+	at java.base/java.lang.String.charAt(String.java:1527)
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:166)
+	at org.h2.value.ValueDate.parse(ValueDate.java:51)
+	... 54 more
+2023-12-28 10:12:37.517334+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant ; SQL statement:
+INSERT INTO "PUBLIC"."POST"("DATE","CATEGORY_ID","ID","USER_ID","DESCRIPTION","IMAGES")VALUES(?,?,?,?,?,?) [22007-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.value.ValueDate.parse(ValueDate.java:53)
+	at org.h2.value.Value.convertToDate(Value.java:1875)
+	at org.h2.value.Value.convertTo(Value.java:1168)
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.h2.result.UpdatableRow.insertRow(UpdatableRow.java:334)
+	at org.h2.jdbc.JdbcResultSet.insertRow(JdbcResultSet.java:3335)
+	at org.h2.server.web.WebApp.editResult(WebApp.java:1165)
+	at org.h2.server.web.WebApp.process(WebApp.java:251)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.lang.String.checkIndex(String.java:4570)
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:46)
+	at java.base/java.lang.String.charAt(String.java:1527)
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:166)
+	at org.h2.value.ValueDate.parse(ValueDate.java:51)
+	... 54 more
+2023-12-28 10:12:38.641783+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant ; SQL statement:
+INSERT INTO "PUBLIC"."POST"("DATE","CATEGORY_ID","ID","USER_ID","DESCRIPTION","IMAGES")VALUES(?,?,?,?,?,?) [22007-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.value.ValueDate.parse(ValueDate.java:53)
+	at org.h2.value.Value.convertToDate(Value.java:1875)
+	at org.h2.value.Value.convertTo(Value.java:1168)
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.h2.result.UpdatableRow.insertRow(UpdatableRow.java:334)
+	at org.h2.jdbc.JdbcResultSet.insertRow(JdbcResultSet.java:3335)
+	at org.h2.server.web.WebApp.editResult(WebApp.java:1165)
+	at org.h2.server.web.WebApp.process(WebApp.java:251)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.lang.String.checkIndex(String.java:4570)
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:46)
+	at java.base/java.lang.String.charAt(String.java:1527)
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:166)
+	at org.h2.value.ValueDate.parse(ValueDate.java:51)
+	... 54 more
+2023-12-28 10:12:38.643801+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant ; SQL statement:
+INSERT INTO "PUBLIC"."POST"("DATE","CATEGORY_ID","ID","USER_ID","DESCRIPTION","IMAGES")VALUES(?,?,?,?,?,?) [22007-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.value.ValueDate.parse(ValueDate.java:53)
+	at org.h2.value.Value.convertToDate(Value.java:1875)
+	at org.h2.value.Value.convertTo(Value.java:1168)
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.h2.result.UpdatableRow.insertRow(UpdatableRow.java:334)
+	at org.h2.jdbc.JdbcResultSet.insertRow(JdbcResultSet.java:3335)
+	at org.h2.server.web.WebApp.editResult(WebApp.java:1165)
+	at org.h2.server.web.WebApp.process(WebApp.java:251)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.StringIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.lang.String.checkIndex(String.java:4570)
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:46)
+	at java.base/java.lang.String.charAt(String.java:1527)
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:166)
+	at org.h2.value.ValueDate.parse(ValueDate.java:51)
+	... 54 more
+2023-12-28 10:21:04.438603+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELCOMMENT COMMENT COMMENT ECT * FROM CATEGORY"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+SELCOMMENT COMMENT COMMENT ECT * FROM CATEGORY [42001-224]
+2023-12-31 00:55:17.146222+02:00 jdbc[103]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:218)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:135)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:733)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2023-12-31 03:23:01.632088+02:00 jdbc[145]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""ID"" BIGINT NOT NULL)"; SQL statement:
+UPDATE "PUBLIC"."USERS" SET "ID"=? ,"FIRST_NAME"=? ,"LAST_NAME"=? ,"MAIL"=? ,"PASSWORD"=? ,"PHONE_NUMBER"=? ,"PROFILE_IMG"=?  WHERE "ID"=? [22018-224]
+2023-12-31 03:23:01.632088+02:00 jdbc[145]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (USERS: ""ID"" BIGINT NOT NULL)"; SQL statement:
+UPDATE "PUBLIC"."USERS" SET "ID"=? ,"FIRST_NAME"=? ,"LAST_NAME"=? ,"MAIL"=? ,"PASSWORD"=? ,"PHONE_NUMBER"=? ,"PROFILE_IMG"=?  WHERE "ID"=? [22018-224]
+2023-12-31 10:24:04.884362+02:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (COMMENT: ""ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."COMMENT"("ID","POST_ID","USER_ID","CNT_DISLIKE","CNT_LIKE","CONTENT","DISLIKE","LIKES")VALUES(?,?,?,?,?,?,?,?) [22018-224]
+2023-12-31 10:24:04.913457+02:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (COMMENT: ""ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."COMMENT"("ID","POST_ID","USER_ID","CNT_DISLIKE","CNT_LIKE","CONTENT","DISLIKE","LIKES")VALUES(?,?,?,?,?,?,?,?) [22018-224]
+2023-12-31 10:25:04.466512+02:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM  POST [*]\\"; SQL statement:
+SELECT * FROM  POST \ [42000-224]
+2023-12-31 11:27:15.839187+02:00 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1039)
+	at org.h2.server.web.WebApp.process(WebApp.java:227)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 50 more
+2023-12-31 11:27:17.473247+02:00 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1039)
+	at org.h2.server.web.WebApp.process(WebApp.java:227)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 50 more
+2023-12-31 11:27:21.227130+02:00 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1039)
+	at org.h2.server.web.WebApp.process(WebApp.java:227)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 50 more

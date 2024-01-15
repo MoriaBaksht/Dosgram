@@ -1,0 +1,48 @@
+.loginPage1 {
+    border: groove;
+    color: black;
+    height: 100%;
+    background-color: white;
+    font-size: 2vw;
+    margin-top:-10%;
+   
+}
+.loginButton1 {
+    background-color: dodgerblue;
+    width: 90%;
+    height: 8%;
+    outline: none;
+    font-size: 1vw;
+    margin-top: 14%;
+    /* margin-bottom: 30%; */
+}
+
+.input1 {
+    width: 85%;
+    height: 4%;
+    background-color: whitesmoke;
+    border: ridge;
+    outline: none;
+    font-size: 1vw;
+    margin-bottom: -1%;
+    margin-top: 8.5%;
+    padding: 2.5%;
+}
+
+.imageLogo1 {
+    height: 25%;
+    width: 35%;
+    margin-bottom: -23%;
+}
+
+.form1 {
+    height: 45vw;
+    width: 30vw;
+    font-size: 1vw;
+}
+.footer2{
+    margin-bottom: -15%;
+    margin-top: -1.5%;
+    
+    margin-left: -15%;
+}

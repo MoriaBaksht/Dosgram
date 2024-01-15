@@ -1,0 +1,74 @@
+.loginPage{
+    border: groove; 
+    color: black;
+    height: 97%;
+    width: 70%;
+    background-color: white;
+    font-size: 20px;
+   margin-top: -12%;
+
+     
+}
+.signUpPage{
+    border: groove;
+    color: black;
+    height: 9%;
+     width: 70%;
+    text-align: center;
+    background-color: white;
+    font-size: 1.5vw;
+    margin-left:0%;
+    
+}
+
+.loginButton{
+    background-color: dodgerblue;
+    width: 92%;
+    height: 8.5%;
+    outline: none;
+    margin-bottom: 4%;
+    font-size: 2.5vh;
+    text-align: center;
+    margin-top: 7%;
+
+}
+
+.input{
+    width: 90%;
+    height: 8%;
+    background-color: whitesmoke;
+    border: ridge;
+    outline: none;
+    font-size: 1.5vw;
+    margin-top: 2%;
+    margin-bottom: 3%;   
+}
+.imageLogo{
+    height: 25%;
+    width: 40%;
+    margin-bottom: -4%;
+}
+.optionPhone{
+    font-size: 1.5vw;   
+    margin-top: 1%;
+ 
+}
+.optionForgotPassword{
+    font-size: 1.5vw;
+   margin-top: 7%;
+}
+.form{
+    height: 80vh;
+    width: 45vw;
+    margin-left: 25%;
+    margin-bottom: -30px;
+}
+.maybe{
+    margin-top: -8%;
+    font-size: 1.5vw;
+    margin-top: -3%;
+}
+.footer1{
+    margin-bottom: -19%;
+    margin-top: 15%;
+}

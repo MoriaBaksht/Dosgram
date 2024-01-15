@@ -1,0 +1,12 @@
+footer {
+    /* margin-bottom: -20%; */
+    color: rgb(203, 41, 103);
+    /* position: absolute; */
+    bottom: 1px;
+    text-align: center;
+    margin-left: 20%;
+
+  }
+  footer:hover{
+    color: #f78850;
+  }
