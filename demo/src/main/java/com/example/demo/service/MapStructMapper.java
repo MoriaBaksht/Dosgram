@@ -36,14 +36,13 @@ public interface MapStructMapper {
 //        return posts;
 //
 //    }
-
-    default Post dtoToPost(PostDTO p) throws IOException {
-        Post posts=new Post();
-        posts.setId(p.getId());
-        posts.setImages(p.getImagesPath());
-        return posts;
-
-    }
+//מקוריי
+//    default Post dtoToPost(PostDTO p) throws IOException {
+//        Post posts=new Post();
+//        posts.setId(p.getId());
+//        posts.setImages(p.getImagesPath());
+//        return posts;
+//    }
 
     default PostDTO postToDto(Post p) throws IOException {
         PostDTO postDTO=new PostDTO();

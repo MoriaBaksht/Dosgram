@@ -1,5 +1,6 @@
 package com.example.demo.service;
 
+import com.example.demo.model.Category;
 import com.example.demo.model.Comment;
 import com.example.demo.model.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -9,6 +10,6 @@ import java.util.List;
 
 @Component
 public interface PostRepository extends JpaRepository<Post,Long> {
-
+    List<Post> findByCategory(Category category);
 
 }

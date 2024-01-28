@@ -20,6 +20,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api/users")
@@ -59,7 +60,6 @@ public class UsersController {
         }
     }
 
-
     @GetMapping("/all/password")
     public ResponseEntity<List<String>> getUserPassword(){
         try{
@@ -81,7 +81,6 @@ public class UsersController {
             return new ResponseEntity<>(null,HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-
 
     @GetMapping("/all/lastname")
     public ResponseEntity<List<String>> getUserLastname(){
@@ -193,19 +192,24 @@ public class UsersController {
         }
     }
 
-    @GetMapping("/login/{mail}/{password}")
-    public ResponseEntity<Users> findUserByMailAndPassword(String mail,String password) {
+    @PostMapping("/login")
+    public ResponseEntity<Users> login(@RequestBody Map<String, String> loginRequest) {
+        try {
+            String mail = loginRequest.get("mail");
+            String password = loginRequest.get("password");
 
-            Users user = usersRepository.findByMailAndPassword(mail,password);
+            Users user = usersRepository.findByMailAndPassword(mail, password);
 
             if (user != null) {
-
+                // You might want to return a token or user details here
                 return new ResponseEntity<>(user, HttpStatus.OK);
             } else {
-                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-
+                return new ResponseEntity<>(null, HttpStatus.UNAUTHORIZED);
             }
-
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 
     @PostMapping("/createUser")
@@ -281,16 +285,5 @@ public class UsersController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }

@@ -17,20 +17,18 @@ public class Users {
     private long Id;
     private String mail;
     private String password;
-
     private String firstName;
-
     private String lastName;
     private String phoneNumber;
-
     private String profileImg;
 
-    @JsonIgnore
-    @OneToMany(mappedBy="user")
-    private List<Post> Posts;
+//    @JsonIgnore
+//    @OneToMany(mappedBy="user",fetch = FetchType.EAGER)
+//    private List<Post> Posts;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user",fetch = FetchType.EAGER)
+
     private List<Comment> comments;
 
     public Users() {
@@ -44,7 +42,7 @@ public class Users {
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
         this.profileImg = profileImg;
-        Posts = posts;
+//        Posts = posts;
         this.comments = comments;
     }
 
@@ -76,9 +74,9 @@ public class Users {
         this.profileImg = profileImg;
     }
 
-    public void setPosts(List<Post> posts) {
-        Posts = posts;
-    }
+//    public void setPosts(List<Post> posts) {
+//        Posts = posts;
+//    }
 
     public void setComments(List<Comment> comments) {
         this.comments = comments;
@@ -114,8 +112,10 @@ public class Users {
 
 
 
-    public List<Post> getPosts() {
-        return Posts;
-    }
+//    public List<Post> getPosts() {
+//        return Posts;
+//    }
+
 }
+
 

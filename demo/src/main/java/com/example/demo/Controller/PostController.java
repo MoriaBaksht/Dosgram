@@ -5,6 +5,8 @@ import com.example.demo.model.Category;
 import com.example.demo.model.Comment;
 import com.example.demo.model.Post;
 import com.example.demo.model.Users;
+import com.example.demo.service.CategoryRepository;
+import com.example.demo.service.CommentRepository;
 import com.example.demo.service.MapStructMapper;
 import com.example.demo.service.PostRepository;
 
@@ -31,14 +33,18 @@ import java.util.List;
 public class PostController {
 
     private PostRepository postRepository;
+    private CommentRepository commentRepository;
 
+    private CategoryRepository categoryRepository;
     private MapStructMapper mapper;
 
     private static String UPLOAD_DIRECTORY=System.getProperty("user.dir")+"\\images\\";
 
     @Autowired
-    public PostController(PostRepository postRepository, MapStructMapper mapper) {
+    public PostController(PostRepository postRepository,CommentRepository commentRepository,CategoryRepository categoryRepository, MapStructMapper mapper) {
         this.postRepository = postRepository;
+        this.commentRepository=commentRepository;
+        this.categoryRepository=categoryRepository;
         this.mapper=mapper;
     }
 
@@ -206,6 +212,51 @@ public class PostController {
         }
 
     }
+    @PostMapping("/post/{postId}/comment")
+    public ResponseEntity<Comment> addCommentToPost(@PathVariable Long postId, @RequestBody Comment comment) {
+        try {
+            Post post = postRepository.findById(postId).orElse(null);
+
+            if (post != null) {
+                // Set the post for the comment
+                comment.setPost(post);
+
+                // Save the comment without setting the ID manually
+                Comment newComment = commentRepository.save(comment);
+
+                return new ResponseEntity<>(newComment, HttpStatus.CREATED);
+            } else {
+                return new ResponseEntity<>(null, HttpStatus.NOT_FOUND); // Post not found
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @PostMapping("/post/{categoryId}/newPost")
+    public ResponseEntity<Comment> addPostByCategory(@PathVariable Long categoryId, @RequestBody Comment comment) {
+        try {
+            Post post = postRepository.findById(categoryId).orElse(null);
+
+            if (post != null) {
+                // Set the post for the comment
+                comment.setPost(post);
+
+                // Save the comment without setting the ID manually
+                Comment newComment = commentRepository.save(comment);
+
+                return new ResponseEntity<>(newComment, HttpStatus.CREATED);
+            } else {
+                return new ResponseEntity<>(null, HttpStatus.NOT_FOUND); // Post not found
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+
 
     @PutMapping("/update/{id}")
     public ResponseEntity<Post> updateComment(@PathVariable long id, @RequestBody Post post){
@@ -228,26 +279,52 @@ public class PostController {
 
     }
 
-    @PostMapping("/uploadPost")
-    public ResponseEntity<Post> uploadPostWithImage(@RequestPart("image") MultipartFile file,
-                                                        @RequestPart("post") PostDTO p) throws IOException {
-        try{
-            String filePath=UPLOAD_DIRECTORY+file.getOriginalFilename();
-            //הולך להיות הנתיב בו נשמור את התמונה
-            Path filename= Paths.get(filePath);//im.jpg
-            Files.write(filename,file.getBytes());
+//    @PostMapping("/uploadPost")
+//    public ResponseEntity<Post> uploadPostWithImage(@RequestPart("image") MultipartFile file,
+//                                                        @RequestPart("post") PostDTO p) throws IOException {
+//        try{
+//            String filePath=UPLOAD_DIRECTORY+file.getOriginalFilename();
+//            //הולך להיות הנתיב בו נשמור את התמונה
+//            Path filename= Paths.get(filePath);//im.jpg
+//            Files.write(filename,file.getBytes());
+//
+//            p.setImagesPath(filePath);
+//            Post newPost=postRepository.save(mapper.dtoToPost(p));
+//            return new ResponseEntity<>(newPost,HttpStatus.CREATED);
+//
+//        }
+//        catch(Exception e){
+//            System.out.println(e);
+//            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+//        }
+//
+//
+//    }
 
-            p.setImagesPath(filePath);
-            Post newPost=postRepository.save(mapper.dtoToPost(p));
-            return new ResponseEntity<>(newPost,HttpStatus.CREATED);
+    @GetMapping("/byCategory/{categoryId}")
+    public ResponseEntity<List<Post>> getPostsByCategory(@PathVariable Long categoryId) {
+        try {
+            Category category = categoryRepository.findById(categoryId).orElse(null);
 
+            if (category != null) {
+                List<Post> posts = postRepository.findByCategory(category);
+                return new ResponseEntity<>(posts, HttpStatus.OK);
+            }
+//            else if (category == null){
+////                System.out.println("there is no post");
+//                return new ResponseEntity<>(null, HttpStatus.NOT_FOUND); // Category not found
+//            }
+            else {
+                return new ResponseEntity<>(null, HttpStatus.NOT_FOUND); // Category not found
+            }
+            //else {
+            // return null;
+            //   }
         }
-        catch(Exception e){
-            System.out.println(e);
+        catch (Exception e) {
+            System.err.println(e.getMessage());
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
-
-
     }
 
     @GetMapping("/getdto/{id}")
