@@ -28,6 +28,6 @@ export const store = configureStore({
         //tip: tipReducer
     },
     //מוסיפים משתנה מידלוור ומכניסים אליו את המידלוורים שיצרנו
-    middleware: (getDefaultMiddleware) => [...getDefaultMiddleware(),getPostsMidd,postUserMidd,postCommentMidd],
+    middleware: (getDefaultMiddleware) => [...getDefaultMiddleware({serializableCheck:false}),getPostsMidd,postUserMidd,postCommentMidd],
 
 })

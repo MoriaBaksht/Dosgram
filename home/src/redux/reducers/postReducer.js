@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     postsList: [],
+    newPost:{}
     
 }
 
@@ -9,13 +10,15 @@ export const UserSlice = createSlice({
     name: 'post',
     initialState,
     reducers: {        
-        setPosts: (state, action) => {
+        getPosts: (state, action) => {
             state.postsList = action.payload;  
-            console.log(state.postsList) 
+        },
+        addPost: (state, action) => {
+            state.newPost = action.payload;  
         },
     },
 })
 
-export const { setPosts } = UserSlice.actions
+export const { getPosts ,addPost} = UserSlice.actions
 
 export default UserSlice.reducer

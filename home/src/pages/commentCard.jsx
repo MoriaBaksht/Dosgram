@@ -17,6 +17,7 @@ export default function CommentShow({ comment }) {
         }
       >
         <ListItemText primary={comment.content} />
+        
       </ListItem>
     </List>
   );

@@ -3,12 +3,16 @@ import './App.css'
 import MainPage from './pages/homePage'
 import {Route,Routes } from "react-router-dom";
 import Posts from './pages/posts'
-import CommentShow from './commentCard';
-import Login from './pages/login/login'
-import Signup from './pages/login/signup'
-import Password from './pages/password'
+// import CommentShow from './pages/commentCard';
+import CommentShow from './pages/commentCard';
+import Login from './pages/login/login';
+import SignupComponnent from './pages/login/signup';
+import Password from './pages/password';
 // import CommentsTry from './pages/CommentsTry';
-// import Camera from './pages/camera'
+import Camera from './pages/camera';
+import PostButton from './pages/postsButton';
+import FileUpload from './pages/FileUpload';
+import AddPostButton from './pages/addPostButton';
 function App() {
  
 
@@ -16,12 +20,16 @@ function App() {
     <>
     {/* <Camera/> */}
       <Routes>
-      {/* <Route path='/' element={<CommentsTry/>}></Route> */}
+      {/* <Route path='/' element={<AddPostButton/>}></Route> */}
 
       <Route path='/' element={<Login/>}></Route>
-      <Route path='signUp' element={<Signup/>}></Route>
+      <Route path='signUp' element={<SignupComponnent/>}></Route>
       <Route path='home' element={<MainPage/>}></Route>
       <Route path='posts' element={<Posts/>}></Route>
+      <Route path='postButton' element={<PostButton/>}></Route>
+      <Route path='fileUpload' element={<FileUpload/>}></Route>
+      <Route path='addPostButton/:categoryId' element={<AddPostButton/>}></Route>
+
 
       {/* <Route path='landscapes' element={<Landscapes/>}></Route>
       <Route path='makeUp' element={<MakeUp/>}></Route>

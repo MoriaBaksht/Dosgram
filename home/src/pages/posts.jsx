@@ -4,30 +4,36 @@ import { useSelector } from 'react-redux';
 import { useLocation } from 'react-router';
 import { useDispatch } from 'react-redux';
 import PostCard from '../pages/postCard';
-import Avatar from '@mui/material/Avatar';
-
+import PostButton from '../pages/postsButton'
 
 function Posts() {
-  const location = useLocation()
 
+  const location = useLocation();
   const categoryId = location.state.id;
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const allPostsList = useSelector(store => store.post.postsList);
+
+  const [shouldDisplayPostButton, setShouldDisplayPostButton] = useState(true);  // הגדר משתנה לקריאה דינמית באופן תלת ממדי
   
-  console.log(`---#43, allPostsList:`);
-  console.log(allPostsList);
   useEffect(() => {
-    dispatch({ type: 'GET_POSTS' });
+    dispatch({
+      type: 'GET_POSTS_BY_CATEGORY_ID',
+      payload: { categoryId }
+    });
+
   }, []);
 
   return (
     <>
-    <div></div>
+
+      {shouldDisplayPostButton && <PostButton/>}
+
       <div>
-        {allPostsList.map((post) => (
-          <PostCard post={post} />
+        {allPostsList.map((post, index) => (
+          <PostCard key={index} post={post}  />
         ))}
       </div>
+      {allPostsList == null && <PostButton />}
     </>
   )
 }
